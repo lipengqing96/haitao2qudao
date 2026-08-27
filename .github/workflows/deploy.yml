@@ -17,3 +17,4 @@ jobs:
           projectName: haitao2qudao
           directory: .
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
