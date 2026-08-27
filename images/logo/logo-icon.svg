@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none">
+  <!-- Outer glow ring -->
+  <rect width="40" height="40" rx="12" fill="#7c3aed"/>
+  <!-- The "1" - bold left pillar -->
+  <rect x="8" y="7" width="10" height="26" rx="5" fill="white"/>
+  <!-- The "0" - overlapping ring -->
+  <circle cx="26" cy="20" r="11" fill="#5b21b6"/>
+  <circle cx="26" cy="20" r="7" fill="#7c3aed"/>
+  <!-- Small star accent in the "0" -->
+  <polygon points="26,14.5 27.2,17.5 30.3,17.8 27.8,20 28.6,23.2 26,21.5 23.4,23.2 24.2,20 21.7,17.8 24.8,17.5" fill="#a78bfa"/>
+</svg>
