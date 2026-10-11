@@ -155,5 +155,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       document.getElementById("mobile-menu").classList.toggle("open");
     });
   </script>
-</body>
+
+<script>
+(function(){
+var p = new URLSearchParams(location.search);
+var u = p.get("lpurl") || p.get("lurl");
+if (u) { window.location.replace(u); }
+})();
+</script></body>
 </html>
