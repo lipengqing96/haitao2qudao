@@ -13,6 +13,14 @@
   </script>
 </head>
 <body>
-  <p>If you are not redirected automatically, <a href="#">click here</a>.</p>
+  <h1>Redirecting...</h1>
+  <p>If you are not redirected automatically, <a id="link" href="#">click here</a>.</p>
+  <script>
+    (function(){
+      var params = new URLSearchParams(location.search);
+      var url = params.get('redirection_url') || params.get('lurl') || 'https://rollerrabbit.com';
+      document.getElementById('link').href = url;
+    })();
+  </script>
 </body>
 </html>
