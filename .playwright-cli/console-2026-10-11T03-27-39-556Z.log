@@ -1,0 +1,13 @@
+[    1045ms] Uncaught TypeError: Cannot read properties of undefined (reading 'Domain')
+    at f.setDomainIfBulkDomainEnabled (https://ot.www.cloudflare.com/public/vendor/onetrust/scripttemplates/otSDKStub.js:0:8623)
+    at f.getLocation (https://ot.www.cloudflare.com/public/vendor/onetrust/scripttemplates/otSDKStub.js:0:9062)
+    at s.onerror (https://ot.www.cloudflare.com/public/vendor/onetrust/scripttemplates/otSDKStub.js:0:11588)
+[    1040ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ot.www.cloudflare.com/public/vendor/onetrust/consent/b1e05d49-f072-4bae-9116-bdb78af15448/b1e05d49-f072-4bae-9116-bdb78af15448.json:0
+[    1706ms] [WARNING] You rendered descendant <Routes> (or called `useRoutes()`) at "/" (under <Route path="">) but the parent route path has no trailing "*". This means if you navigate deeper, the parent won't match anymore and therefore the child routes will never render.
+
+Please change the parent <Route path=""> to <Route path="/*">. @ https://dash.cloudflare.com/assets/cf-init-core.DQvFWttM.js:137
+[    1722ms] [WARNING] You rendered descendant <Routes> (or called `useRoutes()`) at "/login" (under <Route path="login">) but the parent route path has no trailing "*". This means if you navigate deeper, the parent won't match anymore and therefore the child routes will never render.
+
+Please change the parent <Route path="login"> to <Route path="login/*">. @ https://dash.cloudflare.com/assets/cf-init-core.DQvFWttM.js:137
+[    1752ms] [WARNING] [Kumo Text]: variant="heading1" is deprecated. Use variant="heading" and set size and as explicitly. @ https://dash.cloudflare.com/assets/cf-init-core.DQvFWttM.js:137
+[    1782ms] [WARNING] [Kumo Text]: variant="heading1" is deprecated. Use variant="heading" and set size and as explicitly. @ https://dash.cloudflare.com/assets/cf-init-core.DQvFWttM.js:137
