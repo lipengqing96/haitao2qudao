@@ -4,9 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Redirect - 10Best</title>
-  <meta http-equiv="refresh" content="0;url=:transparency_url">
+  <script>
+    (function(){
+      var params = new URLSearchParams(location.search);
+      var url = params.get('redirection_url') || params.get('lurl') || 'https://rollerrabbit.com';
+      window.location.replace(url);
+    })();
+  </script>
 </head>
 <body>
-  <p>If you are not redirected, <a href=":transparency_url">click here</a>.</p>
+  <p>If you are not redirected automatically, <a href="#">click here</a>.</p>
 </body>
 </html>
